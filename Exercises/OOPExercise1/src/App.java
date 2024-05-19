@@ -37,5 +37,7 @@ public class App {
         libraryManager.removeItem(removeId);
         System.out.println("Removed book with ID " + removeId + ". Remaining items in the library:");
         libraryManager.displayAllItems();
+
+        // final
     }
 }
