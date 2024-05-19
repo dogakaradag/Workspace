@@ -14,11 +14,17 @@ public class Ex2 {
 
     public static int getTheCountOfX(int[] array, int x) {
         int countX = 0;
-        for (int i = 0; i < array.length; i++) {
-            if(array[i] == x){
+        for (int j : array) {
+            if (j == x) {
                 countX++;
             }
         }
+
+//        for (int i = 0; i < array.length; i++) {
+//            if(array[i] == x){
+//                countX++;
+//            }
+//        }
         return countX;
     }
 

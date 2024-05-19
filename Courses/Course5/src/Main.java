@@ -19,8 +19,6 @@ public class Main {
     // }
 
     public static void main(String[] args) {
-//        int answer = getFactorial(7); // function call
-//        System.out.println("Answer is " + answer);
 
         int[] arr = {1,55,74,68,94,35};
         int maximum = getMax(arr);
@@ -39,6 +37,27 @@ public class Main {
         }
         return maximum;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

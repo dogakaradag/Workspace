@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Ex6.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #7a7e85;}
+.s4 { color: #6aab73;}
+.s5 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Ex6.java</font>
+</center></td></tr></table>
+<pre><span class="s0">public class </span><span class="s1">Ex6 </span><span class="s2">{</span>
+    <span class="s3">/* 
+        Overloading for Area Calculation 
+ 
+        Overload a Java method named calculateArea to calculate the area of different shapes. Write one version 
+        of the method to calculate the area of a circle (taking the radius as a parameter) and another to calculate 
+        the area of a rectangle (taking the length and breadth as parameters). 
+    */</span>
+    <span class="s0">public static void </span><span class="s1">main</span><span class="s2">(</span><span class="s1">String</span><span class="s2">[] </span><span class="s1">args</span><span class="s2">) {</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Circle Area: &quot; </span><span class="s2">+ </span><span class="s1">calculateArea</span><span class="s2">(</span><span class="s5">3.14f</span><span class="s2">));</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Rectangle Area: &quot; </span><span class="s2">+ </span><span class="s1">calculateArea</span><span class="s2">(</span><span class="s5">5f</span><span class="s2">,</span><span class="s5">9f</span><span class="s2">));</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Triangle Area: &quot; </span><span class="s2">+ </span><span class="s1">calculateArea</span><span class="s2">(</span><span class="s5">5d</span><span class="s2">,</span><span class="s5">9f</span><span class="s2">));</span>
+
+    <span class="s2">}</span>
+    <span class="s0">public static float </span><span class="s1">calculateArea</span><span class="s2">(</span><span class="s0">float </span><span class="s1">radius</span><span class="s2">){</span>
+        <span class="s0">return </span><span class="s2">(</span><span class="s0">float</span><span class="s2">)(</span><span class="s1">Math</span><span class="s2">.</span><span class="s1">PI </span><span class="s2">* </span><span class="s1">radius </span><span class="s2">* </span><span class="s1">radius</span><span class="s2">);</span>
+    <span class="s2">}</span>
+    <span class="s0">public static float </span><span class="s1">calculateArea</span><span class="s2">(</span><span class="s0">float </span><span class="s1">sideLength1</span><span class="s2">, </span><span class="s0">float </span><span class="s1">sideLength2</span><span class="s2">){</span>
+        <span class="s0">return </span><span class="s2">(</span><span class="s1">sideLength1 </span><span class="s2">* </span><span class="s1">sideLength2</span><span class="s2">);</span>
+    <span class="s2">}</span>
+    <span class="s0">public static float </span><span class="s1">calculateArea</span><span class="s2">(</span><span class="s0">double </span><span class="s1">height</span><span class="s2">, </span><span class="s0">double </span><span class="s1">baseLength</span><span class="s2">){</span>
+        <span class="s0">return </span><span class="s2">(</span><span class="s0">float</span><span class="s2">)((</span><span class="s1">height </span><span class="s2">* </span><span class="s1">baseLength</span><span class="s2">)) / </span><span class="s5">2</span><span class="s2">;</span>
+    <span class="s2">}</span>
+<span class="s2">}</span>
+</pre>
+</body>
+</html>

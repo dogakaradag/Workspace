@@ -11,14 +11,16 @@ public class Ex3 {
     }
 
     public static void sortArray(int[] array) {
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length - 1; j++) {
-                if (array[j] > array[j + 1]) {
-                    int x = array[j];
-                    array[j] = array[j + 1];
-                    array[j + 1] = x;
+        for (int i =0; i< array.length; ++i){
+            for(int j =0; j < array.length-1 ; ++j){
+                if (array[j] > array[j+1]){
+                    int b = array[j];
+                    array[j] = array[j+1];
+                    array[j+1]=b;
+
                 }
             }
         }
+
     }
 }

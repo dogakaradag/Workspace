@@ -1,2 +1,4 @@
-package Question1;public class Main {
+package Question1;
+
+public class Main {
 }
