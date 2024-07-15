@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import LibraryManagementTest.lib.Book;
+
 public class Main {
     private static Scanner scanner = new Scanner(System.in);
     private static LibraryManager libraryManager = new LibraryManager();

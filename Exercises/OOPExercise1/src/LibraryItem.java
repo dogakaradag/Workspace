@@ -10,17 +10,33 @@ public abstract class LibraryItem {
         this.yearPublished = yearPublished;
     }
 
+   
+
     public int getId() {
         return id;
     }
+
+
+
+
+
 
     public String getTitle() {
         return title;
     }
 
+
+
+
+
     public int getYearPublished() {
         return yearPublished;
     }
+
+
+
+
+
 
     public abstract void displayInfo();
     

@@ -1,0 +1,3 @@
+C#,Anders Hejlsberg,700.0
+Effective Java,Joshua Bloch,450.0
+Clean Code,Robert C. Martin,500.0
